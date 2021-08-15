@@ -52,4 +52,9 @@ Sirenix/Assemblies/Editor/GeneratedOdinEditors.mdb.meta
 
 #Data
 Assets/_Project/Data/
+<<<<<<< Updated upstream
 .vsconfig
+=======
+Packages/packages-lock.json
+Packages/packages-lock.json
+>>>>>>> Stashed changes
