@@ -6,6 +6,7 @@ using UnityEngine.InputSystem;
 public class CameraController : MonoBehaviour
 {
     public Vector2 mouseSensitivity = new Vector2(0.1f, 0.1f);
+    public Vector2 controllerSensitivity = new Vector2(.5f, .5f);
 
     private Transform xRot, playerBody;
 
@@ -24,11 +25,21 @@ public class CameraController : MonoBehaviour
 
         transform.position = playerBody.position;
         Vector2 mouseDelta = Pointer.current.delta.ReadValue();
+        mouseDelta.x *= mouseSensitivity.x;
+        mouseDelta.y *= mouseSensitivity.y;
 
-        transform.Rotate(0, mouseDelta.x * mouseSensitivity.x, 0);
+        Vector2 padDelta = Vector2.zero;
+        if (Gamepad.current != null)
+            padDelta = Gamepad.current.rightStick.ReadValue();
+        padDelta.x *= controllerSensitivity.x;
+        padDelta.y *= controllerSensitivity.y;
+
+        mouseDelta += padDelta;
+
+        transform.Rotate(0, mouseDelta.x, 0);
 
         float r = xRot.localEulerAngles.x;
-        r += -mouseDelta.y * mouseSensitivity.y;
+        r += -mouseDelta.y;
         if (r < 0)
             r = 0;
         if (r > 90)
