@@ -19,6 +19,9 @@ public class CameraController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (Time.timeScale == 0)
+            return;
+
         transform.position = playerBody.position;
         Vector2 mouseDelta = Pointer.current.delta.ReadValue();
 
