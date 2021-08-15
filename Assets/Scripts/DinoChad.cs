@@ -24,6 +24,7 @@ public class DinoChad : MonoBehaviour
             transform.position = origin + diff * s;
         }
         else
+            if (transform.localScale.magnitude < 10000)
             transform.localScale = transform.localScale * 1.05f;
     }
 }

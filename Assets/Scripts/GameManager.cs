@@ -10,13 +10,15 @@ public class GameManager : MonoBehaviour
     public Text dominoCount;
     public GameObject winEffect;
 
+
+    private AudioSource winSound;
     private bool allDominoesDown;
 
     private bool triggered = false;
     // Start is called before the first frame update
     void Start()
     {
-        
+        winSound = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -28,6 +30,7 @@ public class GameManager : MonoBehaviour
             triggered = true;
             // Add all effects for win here
             dominoCount.text = "All Dominos Down";
+            winSound.Play();
         }
 
         if (!triggered)
