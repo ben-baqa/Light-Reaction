@@ -1,0 +1,1107 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.16f1 (049d6eca3c44) revision 302446'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19043.1165; Version 2009; 64bit' Language: 'en' Physical Memory: 65433 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.16f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Sean/Documents/GitHub/Light-Reaction
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+59770
+Successfully changed project path to: C:/Users/Sean/Documents/GitHub/Light-Reaction
+C:/Users/Sean/Documents/GitHub/Light-Reaction
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 46.74 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.16f1 (049d6eca3c44)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Sean/Documents/GitHub/Light-Reaction/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 6GB (ID=0x1c03)
+    Vendor:   
+    VRAM:     6052 MB
+    Driver:   30.0.14.7168
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56976
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001526 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 36.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.789 seconds
+Domain Reload Profiling:
+	ReloadAssembly (789ms)
+		BeginReloadAssembly (42ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (347ms)
+			LoadAssemblies (40ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (123ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (22ms)
+			SetupLoadedEditorAssemblies (133ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (37ms)
+				BeforeProcessingInitializeOnLoad (11ms)
+				ProcessInitializeOnLoadAttributes (62ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004069 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.895 seconds
+Domain Reload Profiling:
+	ReloadAssembly (895ms)
+		BeginReloadAssembly (110ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (736ms)
+			LoadAssemblies (68ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (220ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (340ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (69ms)
+				ProcessInitializeOnLoadAttributes (232ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1951 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 80.4 MB.
+System memory in use after: 80.5 MB.
+
+Unloading 58 unused Assets to reduce memory usage. Loaded Objects now: 2355.
+Total: 4.266400 ms (FindLiveObjects: 0.166600 ms CreateObjectMapping: 0.062200 ms MarkObjects: 3.979100 ms  DeleteObjects: 0.057900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/POPCANFIXED.fbx
+  artifactKey: Guid(9eb3174c63e7a6240a4df7cdda953ff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POPCANFIXED.fbx using Guid(9eb3174c63e7a6240a4df7cdda953ff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c173bedbc83c56fd21c7bdd04be18a74') in 0.284798 seconds 
+  Import took 0.287291 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/LEVELONEFIXED.fbx
+  artifactKey: Guid(4281810a1b0d85e4694af8cbb3e24ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEVELONEFIXED.fbx using Guid(4281810a1b0d85e4694af8cbb3e24ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa69d6882170bb79b95c2cefe1806a25') in 0.115028 seconds 
+  Import took 0.117474 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/ANIMATED FAN.dae
+  artifactKey: Guid(2d02973a6284f29458ce5956dbfb8a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ANIMATED FAN.dae using Guid(2d02973a6284f29458ce5956dbfb8a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2db753f16657107e4e759a1142f40f6') in 0.020265 seconds 
+  Import took 0.022904 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/THEWORKS.fbx
+  artifactKey: Guid(48a0a238519fade4087d7089d11ebbbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/THEWORKS.fbx using Guid(48a0a238519fade4087d7089d11ebbbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '556d790e20f3cf5d896960f1a51ecf34') in 0.047399 seconds 
+  Import took 0.049976 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/ANIMATED FAN.dae
+  artifactKey: Guid(2d02973a6284f29458ce5956dbfb8a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ANIMATED FAN.dae using Guid(2d02973a6284f29458ce5956dbfb8a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2db753f16657107e4e759a1142f40f6') in 0.013422 seconds 
+  Import took 0.015956 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/THEWORKS.fbx
+  artifactKey: Guid(48a0a238519fade4087d7089d11ebbbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/THEWORKS.fbx using Guid(48a0a238519fade4087d7089d11ebbbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '556d790e20f3cf5d896960f1a51ecf34') in 0.049253 seconds 
+  Import took 0.051755 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.644182 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.004169 seconds 
+  Import took 0.007008 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006052 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.001345 seconds 
+  Import took 0.003829 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.406080 seconds.
+  path: Assets/Control pannel
+  artifactKey: Guid(17cdaf89e98bd9647a7b78fe519d2b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Control pannel using Guid(17cdaf89e98bd9647a7b78fe519d2b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4837f7f5fbfd9713ce8689554c70d195') in 0.004564 seconds 
+  Import took 0.007110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.531336 seconds.
+  path: Assets/Control pannel/Textures
+  artifactKey: Guid(d9a6eb8d177360c44a8c1b1b6ef5ef60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Control pannel/Textures using Guid(d9a6eb8d177360c44a8c1b1b6ef5ef60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d26b00ae0d3b493ba989ec6568c030b') in 0.004216 seconds 
+  Import took 0.006736 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000697 seconds.
+  path: Assets/Control pannel/Textures
+  artifactKey: Guid(d9a6eb8d177360c44a8c1b1b6ef5ef60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Control pannel/Textures using Guid(d9a6eb8d177360c44a8c1b1b6ef5ef60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d26b00ae0d3b493ba989ec6568c030b') in 0.001388 seconds 
+  Import took 0.003596 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.761384 seconds.
+  path: Assets/Control pannel/Materials
+  artifactKey: Guid(3e590ba17b389364784ed645131e39b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Control pannel/Materials using Guid(3e590ba17b389364784ed645131e39b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3de578bf99d24a0fe64289bac194b1a') in 0.004172 seconds 
+  Import took 0.006705 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 43.301322 seconds.
+  path: Assets/Control pannel/Models
+  artifactKey: Guid(310bbed43bee4e0489d7faef2a316161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Control pannel/Models using Guid(310bbed43bee4e0489d7faef2a316161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '330a0e95dc80321f333e23d1e0d7e769') in 0.004664 seconds 
+  Import took 0.007641 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005393 seconds.
+  path: Assets/Control pannel/Models
+  artifactKey: Guid(310bbed43bee4e0489d7faef2a316161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Control pannel/Models using Guid(310bbed43bee4e0489d7faef2a316161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '330a0e95dc80321f333e23d1e0d7e769') in 0.001414 seconds 
+  Import took 0.003708 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.266633 seconds.
+  path: Assets/Control pannel/Prefabs
+  artifactKey: Guid(0c5cce1f1d22c524789a21ff3193e3f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Control pannel/Prefabs using Guid(0c5cce1f1d22c524789a21ff3193e3f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ce3384c0fdeb1d6e1a18a0a84cb4721') in 0.004492 seconds 
+  Import took 0.007062 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006237 seconds.
+  path: Assets/Control pannel/Prefabs
+  artifactKey: Guid(0c5cce1f1d22c524789a21ff3193e3f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Control pannel/Prefabs using Guid(0c5cce1f1d22c524789a21ff3193e3f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ce3384c0fdeb1d6e1a18a0a84cb4721') in 0.001442 seconds 
+  Import took 0.003694 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.245628 seconds.
+  path: Assets/Control pannel/Models/MainScreen.fbx
+  artifactKey: Guid(0b14c4c54e9d77d43854f1fd643f6abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Control pannel/Models/MainScreen.fbx using Guid(0b14c4c54e9d77d43854f1fd643f6abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32ff26dd185bf4eba708aa3e1347843a') in 0.059522 seconds 
+  Import took 0.062383 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005926 seconds.
+  path: Assets/Control pannel/Models/MainScreen.fbx
+  artifactKey: Guid(0b14c4c54e9d77d43854f1fd643f6abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Control pannel/Models/MainScreen.fbx using Guid(0b14c4c54e9d77d43854f1fd643f6abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32ff26dd185bf4eba708aa3e1347843a') in 0.045007 seconds 
+  Import took 0.047927 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 53.129846 seconds.
+  path: Assets/Control pannel/Materials/Control panel__KeyB2_Material.006_AO.png
+  artifactKey: Guid(8431909235928c74198dc2778c4ca6c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Control pannel/Materials/Control panel__KeyB2_Material.006_AO.png using Guid(8431909235928c74198dc2778c4ca6c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f394d5491250664e670d26761e97483') in 0.028304 seconds 
+  Import took 0.031136 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Control pannel/Materials/Control panel_KeyB1_Material.007_AO.png
+  artifactKey: Guid(6e497778989d5314e82e39b90ecdc65a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Control pannel/Materials/Control panel_KeyB1_Material.007_AO.png using Guid(6e497778989d5314e82e39b90ecdc65a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92c326fcaadb94479176255c642f38bf') in 0.009341 seconds 
+  Import took 0.011655 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Control pannel/Materials/Control panel_Glass_Material.005_Displacement.exr
+  artifactKey: Guid(db1be66edea8cec4bbfc1392f1040f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Control pannel/Materials/Control panel_Glass_Material.005_Displacement.exr using Guid(db1be66edea8cec4bbfc1392f1040f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71b4fb0b3e9e0d0dc43fd1cf83305e2d') in 0.016649 seconds 
+  Import took 0.018949 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/Control pannel/Materials/Control panel_Base__Material.011_AO.png
+  artifactKey: Guid(7224fe6611bd758419c3027035938eb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Control pannel/Materials/Control panel_Base__Material.011_AO.png using Guid(7224fe6611bd758419c3027035938eb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01a57116accfbe9846b26bc49cae531f') in 0.007701 seconds 
+  Import took 0.009928 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/Control pannel/Materials/Control panel_plug_Material.010_Normal.png
+  artifactKey: Guid(cbdb5b23ca2756a4698e9c02fe4487ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Control pannel/Materials/Control panel_plug_Material.010_Normal.png using Guid(cbdb5b23ca2756a4698e9c02fe4487ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baf4080bcb8ec54b4ad78e812718eb25') in 0.007386 seconds 
+  Import took 0.009605 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Control pannel/Materials/Control panel_ButtonEX_Material.008_Albedo.png
+  artifactKey: Guid(4ba24362a1a6e2441a0388a362699643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Control pannel/Materials/Control panel_ButtonEX_Material.008_Albedo.png using Guid(4ba24362a1a6e2441a0388a362699643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59620c7176b70726b61639c927679fc4') in 0.009683 seconds 
+  Import took 0.011904 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Control pannel/Materials/Control panelGlass__Material.010_AO.png
+  artifactKey: Guid(fbed70c94a7c477439cbcc421b615a8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Control pannel/Materials/Control panelGlass__Material.010_AO.png using Guid(fbed70c94a7c477439cbcc421b615a8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b3da0bf467f748e0dc4a42fe4d30014') in 0.007755 seconds 
+  Import took 0.009999 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Control pannel/Materials/Control panel__KeyB2_Material.006_Metalness.png
+  artifactKey: Guid(b4a8b606dd156f34eb8838591de48ea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Control pannel/Materials/Control panel__KeyB2_Material.006_Metalness.png using Guid(b4a8b606dd156f34eb8838591de48ea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70f8dc1a5c89a24f0819071c445ab6f5') in 0.007779 seconds 
+  Import took 0.010056 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Control pannel/Materials/Control panel_BigButton_Material.003_AO.png
+  artifactKey: Guid(f41bfc9adb5bb664ba1a0dffd6c72b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Control pannel/Materials/Control panel_BigButton_Material.003_AO.png using Guid(f41bfc9adb5bb664ba1a0dffd6c72b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73164bb7294805c10bc554b145cf1b1f') in 0.009763 seconds 
+  Import took 0.012122 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Control pannel/Materials/Control panel_Glass_Material.001_Normal.png
+  artifactKey: Guid(b2eeb392ab987e444b6d50b82a901897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Control pannel/Materials/Control panel_Glass_Material.001_Normal.png using Guid(b2eeb392ab987e444b6d50b82a901897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8a3531fff3e7321b7cbd3dd838f3775') in 0.008599 seconds 
+  Import took 0.011160 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Control pannel/Materials/Control panel_Base_Material.011_Albedo.png
+  artifactKey: Guid(903861ff0623ac946b398b2758576864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Control pannel/Materials/Control panel_Base_Material.011_Albedo.png using Guid(903861ff0623ac946b398b2758576864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e2e61066410bf536b1f93d08762b2f6') in 0.007980 seconds 
+  Import took 0.010478 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/Control pannel/Materials/Control panel_plug_Material.010_Metalness.png
+  artifactKey: Guid(e6a130e796276504e9f2f13d92b22657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Control pannel/Materials/Control panel_plug_Material.010_Metalness.png using Guid(e6a130e796276504e9f2f13d92b22657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '228242e0ce1dda0b1aeb04a270f18775') in 0.009166 seconds 
+  Import took 0.011643 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Control pannel/Materials/Control panel_ScreenBase_Material.002_AO.png
+  artifactKey: Guid(e744d93ee1d6c2745859d4eeba9ee316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Control pannel/Materials/Control panel_ScreenBase_Material.002_AO.png using Guid(e744d93ee1d6c2745859d4eeba9ee316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c075165e3e55eafafe78d4107ab0c37') in 0.008346 seconds 
+  Import took 0.010888 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/Control pannel/Materials/Control panel_Base__Material.011_Roughness.png
+  artifactKey: Guid(95417632bfbb60145999d153f4f3581a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Control pannel/Materials/Control panel_Base__Material.011_Roughness.png using Guid(95417632bfbb60145999d153f4f3581a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f28ee823c41be7a8f4d36c7577b7857') in 0.008155 seconds 
+  Import took 0.010614 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/Control pannel/Materials/Control panel__KeyB2_Material.006_Displacement.exr
+  artifactKey: Guid(ea54fa597f5e7304ab5e4a2f0ba26f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Control pannel/Materials/Control panel__KeyB2_Material.006_Displacement.exr using Guid(ea54fa597f5e7304ab5e4a2f0ba26f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cdf16986a4082f733adb9e3c2800e23') in 0.011032 seconds 
+  Import took 0.013528 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/Control pannel/Materials/Control panel_Glass_Material.001_Displacement.exr
+  artifactKey: Guid(00128178be12e9547a2ebabf3b4773a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Control pannel/Materials/Control panel_Glass_Material.001_Displacement.exr using Guid(00128178be12e9547a2ebabf3b4773a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6920c9b051d615b5f13770de0882f21') in 0.009688 seconds 
+  Import took 0.012096 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/Control pannel/Materials/Control panel_ScreenBase_Material.002_Displacement.exr
+  artifactKey: Guid(05aee0f6bf16ffb419689ee9fb3df395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Control pannel/Materials/Control panel_ScreenBase_Material.002_Displacement.exr using Guid(05aee0f6bf16ffb419689ee9fb3df395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '701f9962661c2a34a2871d0cc3371908') in 0.010073 seconds 
+  Import took 0.012470 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Control pannel/Materials/Control panel_ScreenBase_Material.002_Normal.png
+  artifactKey: Guid(f6bb3f155c525a0498d0f301fc34ffe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Control pannel/Materials/Control panel_ScreenBase_Material.002_Normal.png using Guid(f6bb3f155c525a0498d0f301fc34ffe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28fc8cf78a72d82ff45943bca9c1149d') in 0.008858 seconds 
+  Import took 0.011218 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Control pannel/Materials/Control panell_Small Button_Material.009_Roughness.png
+  artifactKey: Guid(80d37b0c98e47934b93e4d7fa803aa5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Control pannel/Materials/Control panell_Small Button_Material.009_Roughness.png using Guid(80d37b0c98e47934b93e4d7fa803aa5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '754ec0f946aad52542ab7c139f145d77') in 0.008610 seconds 
+  Import took 0.011103 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/Control pannel/Materials/Control panel_ScreenBase_Material.002_Roughness.png
+  artifactKey: Guid(2f73ef561d69f08438d9eef73f9a197b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Control pannel/Materials/Control panel_ScreenBase_Material.002_Roughness.png using Guid(2f73ef561d69f08438d9eef73f9a197b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45e2b00d1bc6eda2a543409ca84010c5') in 0.009034 seconds 
+  Import took 0.011614 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Control pannel/Materials/Control panel_Glass_Material.001_AO.png
+  artifactKey: Guid(88b104ba3d5b966478cd4242c4e8992f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Control pannel/Materials/Control panel_Glass_Material.001_AO.png using Guid(88b104ba3d5b966478cd4242c4e8992f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb8cc7632ac41ac7add400b3cae0cec2') in 0.008150 seconds 
+  Import took 0.010644 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Control pannel/Materials/Control panel_Glass_Material.001_Metalness.png
+  artifactKey: Guid(42e18fea88ed4404788d84249d77430f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Control pannel/Materials/Control panel_Glass_Material.001_Metalness.png using Guid(42e18fea88ed4404788d84249d77430f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58c4e58c87053d3410709de7df9f2dd4') in 0.008643 seconds 
+  Import took 0.011117 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Control pannel/Materials/Control panel_BigButton_Material.003_Normal.png
+  artifactKey: Guid(19751db41a1f85b49930e49c5f355dc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Control pannel/Materials/Control panel_BigButton_Material.003_Normal.png using Guid(19751db41a1f85b49930e49c5f355dc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad4bd62f2b8435062b38b093810a5387') in 0.008153 seconds 
+  Import took 0.010597 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Control pannel/Materials/Control panel_Base__Material.011_Displacement.exr
+  artifactKey: Guid(5720d8356a324ac4799e44a10c8859fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Control pannel/Materials/Control panel_Base__Material.011_Displacement.exr using Guid(5720d8356a324ac4799e44a10c8859fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26af00b1b6f1d8e769df0c2ee309baa3') in 0.008851 seconds 
+  Import took 0.011514 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Control pannel/Materials/Control panel_Base__Material.011_Metalness.png
+  artifactKey: Guid(abcb3f0f4d7d52f4ba8971cd4df17d3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Control pannel/Materials/Control panel_Base__Material.011_Metalness.png using Guid(abcb3f0f4d7d52f4ba8971cd4df17d3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89272e1c489e58e3e5f6d3901180023e') in 0.008653 seconds 
+  Import took 0.011482 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Control pannel/Materials/Control panel_ScreenBase_Material.002_Metalness.png
+  artifactKey: Guid(aac376db85cd4aa4288ae1daac2fbedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Control pannel/Materials/Control panel_ScreenBase_Material.002_Metalness.png using Guid(aac376db85cd4aa4288ae1daac2fbedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b19c79b969ac9aafe8bcda5d0e118fcf') in 0.008613 seconds 
+  Import took 0.011084 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Control pannel/Materials/Control panel_Glass_Material.001_Roughness.png
+  artifactKey: Guid(26af39273bc26cd4e9376d2078a8b738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Control pannel/Materials/Control panel_Glass_Material.001_Roughness.png using Guid(26af39273bc26cd4e9376d2078a8b738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e371fd60654b0f45ddf4a9589cad15ee') in 0.008018 seconds 
+  Import took 0.010554 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Control pannel/Materials/Control panel_BigButton_Material.003_Albedo.png
+  artifactKey: Guid(2e7c3ff99965453489da6f754acee5a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Control pannel/Materials/Control panel_BigButton_Material.003_Albedo.png using Guid(2e7c3ff99965453489da6f754acee5a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b40ab0f53ea92cddeb2d2b57fc8a271') in 0.007900 seconds 
+  Import took 0.010738 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/Control pannel/Materials/Control panel_KeyB1_Material.007_Normal.png
+  artifactKey: Guid(2bedc735457e2ae4fa8ac96e7a2adcd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Control pannel/Materials/Control panel_KeyB1_Material.007_Normal.png using Guid(2bedc735457e2ae4fa8ac96e7a2adcd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '616ec21538f5ceb278cdfdd1681067d4') in 0.009240 seconds 
+  Import took 0.011679 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/Control pannel/Materials/Control panel_Glass_Material.005_AO.png
+  artifactKey: Guid(c8fc6ff5da1690d41a6d061a54eb65a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Control pannel/Materials/Control panel_Glass_Material.005_AO.png using Guid(c8fc6ff5da1690d41a6d061a54eb65a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8c07224cb92dc0614b35a42db512c8b') in 0.007767 seconds 
+  Import took 0.010204 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Control pannel/Materials/Control panel_ButtonEX_Material.008_Roughness.png
+  artifactKey: Guid(a3c9648adcbda444bae8da493328f006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Control pannel/Materials/Control panel_ButtonEX_Material.008_Roughness.png using Guid(a3c9648adcbda444bae8da493328f006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e218680af524e255b8d959f5a47852cd') in 0.008273 seconds 
+  Import took 0.011014 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/Control pannel/Materials/Control panel_BigButton_Material.003_Roughness.png
+  artifactKey: Guid(72ce94035230bb8459ef6f01480e4ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Control pannel/Materials/Control panel_BigButton_Material.003_Roughness.png using Guid(72ce94035230bb8459ef6f01480e4ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c92fdbff5acb8bce3d685ef77c97cc0') in 0.008313 seconds 
+  Import took 0.010729 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Control pannel/Materials/Control panel_Glass_Material.005_Normal.png
+  artifactKey: Guid(beb877dd2d6daff43b9ea09cbc18f12b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Control pannel/Materials/Control panel_Glass_Material.005_Normal.png using Guid(beb877dd2d6daff43b9ea09cbc18f12b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59ba993f550596c8860778946f330cec') in 0.007743 seconds 
+  Import took 0.010167 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/Control pannel/Materials/Control panel_Glass_Material.010_Albedo.png
+  artifactKey: Guid(d23d16da7c46696448b793bfc0c678c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Control pannel/Materials/Control panel_Glass_Material.010_Albedo.png using Guid(d23d16da7c46696448b793bfc0c678c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c393180bc1b012124d465a2491b6f68') in 0.009386 seconds 
+  Import took 0.011832 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Control pannel/Materials/Control panell_Small Button_Material.009_Metalness.png
+  artifactKey: Guid(a9c043c31d888b64c8af6a2c78536520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Control pannel/Materials/Control panell_Small Button_Material.009_Metalness.png using Guid(a9c043c31d888b64c8af6a2c78536520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd361d3725f04077245da115ce78e5ae0') in 0.008527 seconds 
+  Import took 0.010980 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Control pannel/Materials/Control panel__KeyB2_Material.006_Roughness.png
+  artifactKey: Guid(8889d0e2b8d5f9441bf7cbc549baf42b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Control pannel/Materials/Control panel__KeyB2_Material.006_Roughness.png using Guid(8889d0e2b8d5f9441bf7cbc549baf42b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70842c019df28a0c46798d9d79519626') in 0.007804 seconds 
+  Import took 0.010353 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Control pannel/Materials/Control panel_ButtonEX_Material.008_Normal.png
+  artifactKey: Guid(e0c622e22c4ec71459bf1c90e5e2de4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Control pannel/Materials/Control panel_ButtonEX_Material.008_Normal.png using Guid(e0c622e22c4ec71459bf1c90e5e2de4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5553b590881e9da61ba63159dd4b655b') in 0.008724 seconds 
+  Import took 0.011533 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Control pannel/Materials/Control panel_KeyB1_Material.007_Albedo.png
+  artifactKey: Guid(e66881e075c405f45b9d544bbce50874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Control pannel/Materials/Control panel_KeyB1_Material.007_Albedo.png using Guid(e66881e075c405f45b9d544bbce50874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f39bb320f3b983a7a6cb2aeed04d0fad') in 0.008237 seconds 
+  Import took 0.010645 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/Control pannel/Materials/Control panel_ScreenBase_Material.002_Albedo.png
+  artifactKey: Guid(f112f3111ea13be4598414a2cd8858ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Control pannel/Materials/Control panel_ScreenBase_Material.002_Albedo.png using Guid(f112f3111ea13be4598414a2cd8858ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64e237b9f2ce8f1a9b775d71a464503f') in 0.007835 seconds 
+  Import took 0.010306 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Control pannel/Materials/Control panel_BigButton_Material.003_Metalness.png
+  artifactKey: Guid(1acc9ad5f49c3fb4d843e112e27b71e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Control pannel/Materials/Control panel_BigButton_Material.003_Metalness.png using Guid(1acc9ad5f49c3fb4d843e112e27b71e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f611e954f1c6caaf13690b394b5eaef7') in 0.008516 seconds 
+  Import took 0.011208 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Control pannel/Materials/Control panel_ButtonEX_Material.008_Metalness.png
+  artifactKey: Guid(3883204ffaf876f49b3966ad82a62ed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Control pannel/Materials/Control panel_ButtonEX_Material.008_Metalness.png using Guid(3883204ffaf876f49b3966ad82a62ed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79b3cd08de4abf445e67dd455fc48508') in 0.008775 seconds 
+  Import took 0.011227 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/Control pannel/Materials/Control panel_Glass_Material.005_Metalness.png
+  artifactKey: Guid(f9c2adfaa7ad0e04cacfd536b55412a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Control pannel/Materials/Control panel_Glass_Material.005_Metalness.png using Guid(f9c2adfaa7ad0e04cacfd536b55412a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd27e6de27f4edacdc7d306ee3e6a7cc7') in 0.007770 seconds 
+  Import took 0.010323 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Control pannel/Materials/Control panel_KeyB1_Material.007_Roughness.png
+  artifactKey: Guid(86faa20a45bb6104a98161827d5d2409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Control pannel/Materials/Control panel_KeyB1_Material.007_Roughness.png using Guid(86faa20a45bb6104a98161827d5d2409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '376ebd10bd77df6ccd0da517536f1305') in 0.008509 seconds 
+  Import took 0.011116 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Control pannel/Materials/Control panel_Small Button_Material.009_Albedo.png
+  artifactKey: Guid(26966434eed59ec40b6c94e1c3dd4fb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Control pannel/Materials/Control panel_Small Button_Material.009_Albedo.png using Guid(26966434eed59ec40b6c94e1c3dd4fb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ef76b41680b53cdcb6772e303c495f6') in 0.008559 seconds 
+  Import took 0.010975 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Control pannel/Materials/Control panel_Small Button_Material.009_AO.png
+  artifactKey: Guid(670d1ac190821174e8779341cee534c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Control pannel/Materials/Control panel_Small Button_Material.009_AO.png using Guid(670d1ac190821174e8779341cee534c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6161e0797caa4ab70c112acd0cceb4dd') in 0.007717 seconds 
+  Import took 0.010173 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Control pannel/Materials/Control panel_ButtonEX_Material.008_AO.png
+  artifactKey: Guid(fe1808f1a1c94e54f98d964cdca5e052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Control pannel/Materials/Control panel_ButtonEX_Material.008_AO.png using Guid(fe1808f1a1c94e54f98d964cdca5e052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8ee9333eecdb3210f722df1ae6e3533') in 0.008354 seconds 
+  Import took 0.010919 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Control pannel/Materials/Control panel_BigButton_Material.003_Displacement.exr
+  artifactKey: Guid(e7ba0f88c8a93e1498e25d56d9716479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Control pannel/Materials/Control panel_BigButton_Material.003_Displacement.exr using Guid(e7ba0f88c8a93e1498e25d56d9716479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c91498a56eff1a261ebe46379ab72b79') in 0.009679 seconds 
+  Import took 0.012195 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Control pannel/Materials/Control panel_KeyB1_Material.007_Metalness.png
+  artifactKey: Guid(f203160f37ab2d145ac59de502fc73aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Control pannel/Materials/Control panel_KeyB1_Material.007_Metalness.png using Guid(f203160f37ab2d145ac59de502fc73aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13a7db993d80039c78821c8ff4a5846a') in 0.008195 seconds 
+  Import took 0.010885 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Control pannel/Materials/Control panel__KeyB2_Material.006_Normal.png
+  artifactKey: Guid(b394b5bfa7ea10349af2c47976331619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Control pannel/Materials/Control panel__KeyB2_Material.006_Normal.png using Guid(b394b5bfa7ea10349af2c47976331619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aceee6dee1bc0cd786dae970147cbb4f') in 0.008047 seconds 
+  Import took 0.010856 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/Control pannel/Materials/Control panel_Glass_Material.005_Albedo.png
+  artifactKey: Guid(668187898cc9f6e48b4606bfdfc2b746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Control pannel/Materials/Control panel_Glass_Material.005_Albedo.png using Guid(668187898cc9f6e48b4606bfdfc2b746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5441487f202bd8bf5ed247b230bf9300') in 0.008455 seconds 
+  Import took 0.010854 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/Control pannel/Materials/Control panel_ButtonEX_Material.008_Displacement.exr
+  artifactKey: Guid(1038cf861197e384eb93813725844a1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Control pannel/Materials/Control panel_ButtonEX_Material.008_Displacement.exr using Guid(1038cf861197e384eb93813725844a1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e003fb262d5185b56383f999f769fedd') in 0.009773 seconds 
+  Import took 0.012502 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Control pannel/Materials/Control panel_Glass_Material.001_Albedo.png
+  artifactKey: Guid(a1dfd5b0bf6e273439cbe94bc4881666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Control pannel/Materials/Control panel_Glass_Material.001_Albedo.png using Guid(a1dfd5b0bf6e273439cbe94bc4881666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c0c3f2768d8542e34830fa429acddc0') in 0.007887 seconds 
+  Import took 0.010361 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Control pannel/Materials/Control panell_Small Button_Material.009_Displacement.exr
+  artifactKey: Guid(a8e9c1495a833ae4fb93876e3b8258ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Control pannel/Materials/Control panell_Small Button_Material.009_Displacement.exr using Guid(a8e9c1495a833ae4fb93876e3b8258ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5f3238a0715c9cf2c0b8105a54318fe') in 0.009213 seconds 
+  Import took 0.011775 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Control pannel/Materials/Control panel_KeyB1_Material.007_Displacement.exr
+  artifactKey: Guid(2cef98a125ec0b1468e93dcc0db5cff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Control pannel/Materials/Control panel_KeyB1_Material.007_Displacement.exr using Guid(2cef98a125ec0b1468e93dcc0db5cff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd823af7b1862f790c7e21d34a08944e') in 0.009467 seconds 
+  Import took 0.011959 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Control pannel/Materials/Control panell_Small Button_Material.009_Normal.png
+  artifactKey: Guid(d062ea18fe00fee4d8c8b71e2bcc1f5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Control pannel/Materials/Control panell_Small Button_Material.009_Normal.png using Guid(d062ea18fe00fee4d8c8b71e2bcc1f5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74a85b36d7f523a1b76d285457870b11') in 0.007726 seconds 
+  Import took 0.010239 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Control pannel/Materials/Control panel_plug_Material.010_Roughness.png
+  artifactKey: Guid(3812c1768375e7647992bc9823dcd24f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Control pannel/Materials/Control panel_plug_Material.010_Roughness.png using Guid(3812c1768375e7647992bc9823dcd24f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc9fcbb8dc174a63a599369574841d04') in 0.011133 seconds 
+  Import took 0.013867 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Control pannel/Materials/Control panel_Glass_Material.005_Roughness.png
+  artifactKey: Guid(4634348101bb31a4d83f6c439941c114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Control pannel/Materials/Control panel_Glass_Material.005_Roughness.png using Guid(4634348101bb31a4d83f6c439941c114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d37f7e231dc8e9039f0fe2a4ad308ea') in 0.008299 seconds 
+  Import took 0.010752 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Control pannel/Materials/Control panel_KeyB2_Material.006_Albedo.png
+  artifactKey: Guid(8ac78d848ba60984e8a54412f8d46b18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Control pannel/Materials/Control panel_KeyB2_Material.006_Albedo.png using Guid(8ac78d848ba60984e8a54412f8d46b18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f77a151d0bcd6473ab7156676475a82') in 0.007661 seconds 
+  Import took 0.010162 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Control pannel/Materials/Control panel_Base__Material.011_Normal.png
+  artifactKey: Guid(998265389343f7e4fa86d84c6397b70e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Control pannel/Materials/Control panel_Base__Material.011_Normal.png using Guid(998265389343f7e4fa86d84c6397b70e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bf7287a6bf26567c6e9d2c94f865568') in 0.008417 seconds 
+  Import took 0.010970 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Control pannel/Materials/Control panelGlass__Material.010_Displacement.exr
+  artifactKey: Guid(c94e549effc584b409ae2b6e3f5cdaa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Control pannel/Materials/Control panelGlass__Material.010_Displacement.exr using Guid(c94e549effc584b409ae2b6e3f5cdaa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b05e9de9e122483ae26cd80c60fe0e59') in 0.009105 seconds 
+  Import took 0.011510 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Control pannel/Materials/Control panel_KeyB2_Material.006_Albedo.png
+  artifactKey: Guid(8ac78d848ba60984e8a54412f8d46b18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Control pannel/Materials/Control panel_KeyB2_Material.006_Albedo.png using Guid(8ac78d848ba60984e8a54412f8d46b18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f77a151d0bcd6473ab7156676475a82') in 0.005359 seconds 
+  Import took 0.007676 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Control pannel/Materials/Control panelGlass__Material.010_Displacement.exr
+  artifactKey: Guid(c94e549effc584b409ae2b6e3f5cdaa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Control pannel/Materials/Control panelGlass__Material.010_Displacement.exr using Guid(c94e549effc584b409ae2b6e3f5cdaa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b05e9de9e122483ae26cd80c60fe0e59') in 0.008261 seconds 
+  Import took 0.010714 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.908975 seconds.
+  path: Assets/Control pannel/Mat
+  artifactKey: Guid(d9a6eb8d177360c44a8c1b1b6ef5ef60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Control pannel/Mat using Guid(d9a6eb8d177360c44a8c1b1b6ef5ef60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac8ac0532bc69f2728b741fe5afbfc16') in 0.004136 seconds 
+  Import took 0.006615 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.339548 seconds.
+  path: Assets/Control pannel/Textures
+  artifactKey: Guid(3e590ba17b389364784ed645131e39b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Control pannel/Textures using Guid(3e590ba17b389364784ed645131e39b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2778156b153d0d624c26dabdc8282ff2') in 0.001649 seconds 
+  Import took 0.004089 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.355642 seconds.
+  path: Assets/Control pannel/Materials
+  artifactKey: Guid(d9a6eb8d177360c44a8c1b1b6ef5ef60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Control pannel/Materials using Guid(d9a6eb8d177360c44a8c1b1b6ef5ef60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79391db08ed59093b9e45991d5369cfb') in 0.001531 seconds 
+  Import took 0.003868 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.955053 seconds.
+  path: Assets/Control pannel/Prefabs/MainScreen.prefab
+  artifactKey: Guid(5bbbe33427911fe4f96fd44e1261becd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Control pannel/Prefabs/MainScreen.prefab using Guid(5bbbe33427911fe4f96fd44e1261becd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28c681d539c313d9225d4d8deae1ef92') in 0.019292 seconds 
+  Import took 0.021918 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022749 seconds.
+  path: Assets/Control pannel/Prefabs/MainScreen.prefab
+  artifactKey: Guid(5bbbe33427911fe4f96fd44e1261becd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Control pannel/Prefabs/MainScreen.prefab using Guid(5bbbe33427911fe4f96fd44e1261becd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28c681d539c313d9225d4d8deae1ef92') in 0.006464 seconds 
+  Import took 0.009161 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.099406 seconds.
+  path: Assets/Control pannel/Materials/Glass.mat
+  artifactKey: Guid(99fc5544567152941aef35f241c306d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Control pannel/Materials/Glass.mat using Guid(99fc5544567152941aef35f241c306d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad788825f467fece93e55bcc214b8f44') in 0.011433 seconds 
+  Import took 0.014112 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.868643 seconds.
+  path: Assets/FANTEXTURES/ANIMATED FAN_DefaultMaterial_AlbedoTransparency.png
+  artifactKey: Guid(33f9c0d5fc8478049b30bbee75a9e6f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FANTEXTURES/ANIMATED FAN_DefaultMaterial_AlbedoTransparency.png using Guid(33f9c0d5fc8478049b30bbee75a9e6f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4d7e32947ec5145b1112ec7fd2db9fb') in 0.009013 seconds 
+  Import took 0.011783 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/FANTEXTURES/ANIMATED FAN_DefaultMaterial_Normal.png
+  artifactKey: Guid(b06dbbff453470c43acd07e5cfdfd1a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FANTEXTURES/ANIMATED FAN_DefaultMaterial_Normal.png using Guid(b06dbbff453470c43acd07e5cfdfd1a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0244004df670e85776e52844c281d2c') in 0.008648 seconds 
+  Import took 0.011214 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/bier textures/POPCANFIXED_Material.005_MaskMap.png
+  artifactKey: Guid(8dd4929282701ba46afbc82fa02812ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/bier textures/POPCANFIXED_Material.005_MaskMap.png using Guid(8dd4929282701ba46afbc82fa02812ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '373073762d1971274aa6b515e568a288') in 0.009438 seconds 
+  Import took 0.011793 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/MAP2TEXTURESMINUSRAM/cpu/level2 props_Material.004_BaseMap.png
+  artifactKey: Guid(cbf5ab85647095f4cb1062aca5637395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MAP2TEXTURESMINUSRAM/cpu/level2 props_Material.004_BaseMap.png using Guid(cbf5ab85647095f4cb1062aca5637395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97c3d560e63cf8cbeb4da9a9d22e0621') in 0.009495 seconds 
+  Import took 0.011985 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Packages/com.unity.purchasing/Icons/UnityEngine.Purchasing.IAPButtonIcon.png
+  artifactKey: Guid(55e457740fe60405dac77af143e1a867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.purchasing/Icons/UnityEngine.Purchasing.IAPButtonIcon.png using Guid(55e457740fe60405dac77af143e1a867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b22b6584e36fb8728e429783a965ca0') in 0.007569 seconds 
+  Import took 0.009873 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/MAP2TEXTURESMINUSRAM/RAM/FIXEDRAMANDVNMESPRING_Material.001_MaskMap.png
+  artifactKey: Guid(dd76b22971b4ae346be3f42e45862626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MAP2TEXTURESMINUSRAM/RAM/FIXEDRAMANDVNMESPRING_Material.001_MaskMap.png using Guid(dd76b22971b4ae346be3f42e45862626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '498b0f696620d0dfdb68f2eb82d3b5c3') in 0.008825 seconds 
+  Import took 0.011203 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/bier textures/POPCANFIXED_Material.005_Normal.png
+  artifactKey: Guid(8a6c55b8fd3b6c547825c4f9ff4a0b06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/bier textures/POPCANFIXED_Material.005_Normal.png using Guid(8a6c55b8fd3b6c547825c4f9ff4a0b06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6b3a61fcf0257456c5f3b104bfcea8f') in 0.011596 seconds 
+  Import took 0.014171 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/MAP2TEXTURESMINUSRAM/gpu/level2 props_Material.006_BaseMap.png
+  artifactKey: Guid(93ae75ff3943cbd44b9153fceaa78f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MAP2TEXTURESMINUSRAM/gpu/level2 props_Material.006_BaseMap.png using Guid(93ae75ff3943cbd44b9153fceaa78f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6b578fb5a10fba5e9b412222b13e8e4') in 0.008883 seconds 
+  Import took 0.011300 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/MAP2TEXTURESMINUSRAM/NVMESPRING/FIXEDRAMANDVNMESPRING_Material.016_Normal.png
+  artifactKey: Guid(02bfd834239711a4695e73187a3678ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MAP2TEXTURESMINUSRAM/NVMESPRING/FIXEDRAMANDVNMESPRING_Material.016_Normal.png using Guid(02bfd834239711a4695e73187a3678ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aed5328d8731268c8186b2871dda3e53') in 0.010256 seconds 
+  Import took 0.012560 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/MAP2TEXTURESMINUSRAM/PSU/level2 props_Material.015_BaseMap.png
+  artifactKey: Guid(11a9b0f5ac10093429e79dc8a159ca19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MAP2TEXTURESMINUSRAM/PSU/level2 props_Material.015_BaseMap.png using Guid(11a9b0f5ac10093429e79dc8a159ca19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17d16311b68d73c188b073b5130a6ea2') in 0.008103 seconds 
+  Import took 0.010552 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/MAP2TEXTURESMINUSRAM/gpu/level2 props_Material.006_Normal.png
+  artifactKey: Guid(6240b189f62f2cf44a87ec019064647a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MAP2TEXTURESMINUSRAM/gpu/level2 props_Material.006_Normal.png using Guid(6240b189f62f2cf44a87ec019064647a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f08fdb744ffd4a014ca23eaf79ff57b') in 0.008901 seconds 
+  Import took 0.011297 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Packages/com.unity.purchasing/Icons/LinkBlack.png
+  artifactKey: Guid(33d3dd2c39dfd49a3b2d36b20225624a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.purchasing/Icons/LinkBlack.png using Guid(33d3dd2c39dfd49a3b2d36b20225624a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6773dec06f9e18e47b3cedf3d6d1ab34') in 0.007930 seconds 
+  Import took 0.010286 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/FANTEXTURES/ANIMATED FAN_DefaultMaterial_MetallicSmoothness.png
+  artifactKey: Guid(d7d20b1776abbbe46a687e1886add2d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FANTEXTURES/ANIMATED FAN_DefaultMaterial_MetallicSmoothness.png using Guid(d7d20b1776abbbe46a687e1886add2d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0993328b7bf5021ceed5143fbea31272') in 0.008767 seconds 
+  Import took 0.011156 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/MAP2TEXTURESMINUSRAM/PSU/level2 props_Material.015_MaskMap.png
+  artifactKey: Guid(41dc3fa104f6ffe4c932c48c99199a4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MAP2TEXTURESMINUSRAM/PSU/level2 props_Material.015_MaskMap.png using Guid(41dc3fa104f6ffe4c932c48c99199a4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '944bf94658531189cf13a9dfe33d40d6') in 0.008844 seconds 
+  Import took 0.011219 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/MAP2TEXTURESMINUSRAM/NVMESPRING/FIXEDRAMANDVNMESPRING_Material.016_BaseMap.png
+  artifactKey: Guid(2b160bfe25f02d3449263ea7092b605b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MAP2TEXTURESMINUSRAM/NVMESPRING/FIXEDRAMANDVNMESPRING_Material.016_BaseMap.png using Guid(2b160bfe25f02d3449263ea7092b605b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2739988e6ffba05697c86ccd538626e2') in 0.008658 seconds 
+  Import took 0.011005 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/MAP2TEXTURESMINUSRAM/cpu/level2 props_Material.004_Normal.png
+  artifactKey: Guid(bf1bd60b2cb450c45922ea7e4c412f11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MAP2TEXTURESMINUSRAM/cpu/level2 props_Material.004_Normal.png using Guid(bf1bd60b2cb450c45922ea7e4c412f11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14bca503f04348c4ee631b25c74b7803') in 0.010246 seconds 
+  Import took 0.012669 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/MAP2TEXTURESMINUSRAM/PSU/level2 props_Material.015_Normal.png
+  artifactKey: Guid(9dc33fb18cf814b47a15c4c50bd1ce9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MAP2TEXTURESMINUSRAM/PSU/level2 props_Material.015_Normal.png using Guid(9dc33fb18cf814b47a15c4c50bd1ce9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a5e16779ba09b8b309033913bb5be13') in 0.009529 seconds 
+  Import took 0.012060 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/MAP2TEXTURESMINUSRAM/gpu/level2 props_Material.006_MaskMap.png
+  artifactKey: Guid(1b05808da67b51f449fc8cbccac5b86b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MAP2TEXTURESMINUSRAM/gpu/level2 props_Material.006_MaskMap.png using Guid(1b05808da67b51f449fc8cbccac5b86b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eead8b19baa1ab277c67bf05a52f7f9d') in 0.008923 seconds 
+  Import took 0.011371 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/MAP2TEXTURESMINUSRAM/NVMESPRING/FIXEDRAMANDVNMESPRING_Material.016_MaskMap.png
+  artifactKey: Guid(98f4139693914774faea3d27d2412a25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MAP2TEXTURESMINUSRAM/NVMESPRING/FIXEDRAMANDVNMESPRING_Material.016_MaskMap.png using Guid(98f4139693914774faea3d27d2412a25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c934e5e9827ecb59f6d8b6f8c04dec31') in 0.009185 seconds 
+  Import took 0.011602 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/MAP2TEXTURESMINUSRAM/cpu/level2 props_Material.004_MaskMap.png
+  artifactKey: Guid(35f3b5d6b677e8e42a440d754f171b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MAP2TEXTURESMINUSRAM/cpu/level2 props_Material.004_MaskMap.png using Guid(35f3b5d6b677e8e42a440d754f171b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c84d889e0835022d77929ff6ddd91be6') in 0.009338 seconds 
+  Import took 0.011779 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/MAP2TEXTURESMINUSRAM/RAM/FIXEDRAMANDVNMESPRING_Material.001_BaseMap.png
+  artifactKey: Guid(c32ecf271ecbef2449c85c22ebb9a541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MAP2TEXTURESMINUSRAM/RAM/FIXEDRAMANDVNMESPRING_Material.001_BaseMap.png using Guid(c32ecf271ecbef2449c85c22ebb9a541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e7d17bcffaa7767ff65700035590613') in 0.008423 seconds 
+  Import took 0.010976 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/MAP2TEXTURESMINUSRAM/RAM/FIXEDRAMANDVNMESPRING_Material.001_Normal.png
+  artifactKey: Guid(f4ebaac0cf9bb6a41a681bd10b8add14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MAP2TEXTURESMINUSRAM/RAM/FIXEDRAMANDVNMESPRING_Material.001_Normal.png using Guid(f4ebaac0cf9bb6a41a681bd10b8add14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8c0a814ea1819a2732e6fe5b1d4067f') in 0.012557 seconds 
+  Import took 0.014930 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Packages/com.unity.purchasing/Icons/LinkWhite.png
+  artifactKey: Guid(e679a29ca22bc4fa0bd848bd79a42b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.purchasing/Icons/LinkWhite.png using Guid(e679a29ca22bc4fa0bd848bd79a42b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ade22b1dd2736ac9bbfa7f32daf783a') in 0.006840 seconds 
+  Import took 0.009149 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/bier textures/POPCANFIXED_Material.005_BaseMap.png
+  artifactKey: Guid(0ce4ebf9b7f9bf84c947de6bf66a808d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/bier textures/POPCANFIXED_Material.005_BaseMap.png using Guid(0ce4ebf9b7f9bf84c947de6bf66a808d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c42223ffd1d36131ec7199bcb7aa166') in 0.007850 seconds 
+  Import took 0.010126 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/FANTEXTURES/ANIMATED FAN_DefaultMaterial_AlbedoTransparency.png
+  artifactKey: Guid(33f9c0d5fc8478049b30bbee75a9e6f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FANTEXTURES/ANIMATED FAN_DefaultMaterial_AlbedoTransparency.png using Guid(33f9c0d5fc8478049b30bbee75a9e6f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4d7e32947ec5145b1112ec7fd2db9fb') in 0.006452 seconds 
+  Import took 0.008929 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021389 seconds.
+  path: Packages/com.unity.purchasing/Icons/LinkWhite.png
+  artifactKey: Guid(e679a29ca22bc4fa0bd848bd79a42b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.purchasing/Icons/LinkWhite.png using Guid(e679a29ca22bc4fa0bd848bd79a42b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ade22b1dd2736ac9bbfa7f32daf783a') in 0.004270 seconds 
+  Import took 0.006890 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 116.047004 seconds.
+  path: Assets/Control pannel/Materials/Frame.mat
+  artifactKey: Guid(691e29ad2bfd9ea4785e38d6e5901031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Control pannel/Materials/Frame.mat using Guid(691e29ad2bfd9ea4785e38d6e5901031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f3104452a9f79cb4dcb7b7b9640e8da') in 0.009452 seconds 
+  Import took 0.012442 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 74.330478 seconds.
+  path: Assets/Control pannel/Materials/Big Button.mat
+  artifactKey: Guid(81cceffba441145408b3d243a35909ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Control pannel/Materials/Big Button.mat using Guid(81cceffba441145408b3d243a35909ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cdc9ecdb18fac31ebeb3ad01598fae9') in 0.008667 seconds 
+  Import took 0.011755 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 77.873993 seconds.
+  path: Assets/Control pannel/Materials/Smallbuttons.mat
+  artifactKey: Guid(da404f4c8c6ba1e4e8725519acc21708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Control pannel/Materials/Smallbuttons.mat using Guid(da404f4c8c6ba1e4e8725519acc21708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cd704207e845fc688bb2fbab1a6621f') in 0.009221 seconds 
+  Import took 0.012091 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 56.185930 seconds.
+  path: Assets/Control pannel/Materials/Base.mat
+  artifactKey: Guid(87a41aaac6e5fb049808b0754fef8bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Control pannel/Materials/Base.mat using Guid(87a41aaac6e5fb049808b0754fef8bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17375606f3fc0d455c324af70f604e58') in 0.008853 seconds 
+  Import took 0.011765 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 57.903926 seconds.
+  path: Assets/Control pannel/Materials/Keyboardbutton1.mat
+  artifactKey: Guid(612e3bccd7f1a4b459b7a28fc30e483c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Control pannel/Materials/Keyboardbutton1.mat using Guid(612e3bccd7f1a4b459b7a28fc30e483c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '033f06f3566e5dc0bb9da20cadd1950e') in 0.008878 seconds 
+  Import took 0.012031 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 72.890943 seconds.
+  path: Assets/Control pannel/Materials/Keyboardbutton2.mat
+  artifactKey: Guid(27bda4a444ec3a6479f90ca7dd4044ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Control pannel/Materials/Keyboardbutton2.mat using Guid(27bda4a444ec3a6479f90ca7dd4044ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbf4c55c9d8a7f7ff715f902eedbb0db') in 0.009326 seconds 
+  Import took 0.012289 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.054059 seconds.
+  path: Assets/Control pannel/Materials/ButtonExterior.mat
+  artifactKey: Guid(8e93388fcbbd01b458c7133a3b5e6468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Control pannel/Materials/ButtonExterior.mat using Guid(8e93388fcbbd01b458c7133a3b5e6468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7df2503414a8820dbb818097c01dfa8d') in 0.009018 seconds 
+  Import took 0.011656 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 91.056921 seconds.
+  path: Assets/Control pannel/Materials/Plugs.mat
+  artifactKey: Guid(c5d936c2d4bd8494db28da9cc0e7fe92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Control pannel/Materials/Plugs.mat using Guid(c5d936c2d4bd8494db28da9cc0e7fe92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5a6d12cdb528f3a7ebfcf0241605f15') in 0.008493 seconds 
+  Import took 0.011562 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 90.801529 seconds.
+  path: Assets/Control pannel/Prefabs/MainScreen.prefab
+  artifactKey: Guid(5bbbe33427911fe4f96fd44e1261becd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Control pannel/Prefabs/MainScreen.prefab using Guid(5bbbe33427911fe4f96fd44e1261becd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0452366d21a1aace1fccd192eb685e57') in 0.009722 seconds 
+  Import took 0.012573 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002036 seconds.
+  path: Assets/Control pannel/Prefabs/MainScreen.prefab
+  artifactKey: Guid(5bbbe33427911fe4f96fd44e1261becd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Control pannel/Prefabs/MainScreen.prefab using Guid(5bbbe33427911fe4f96fd44e1261becd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0452366d21a1aace1fccd192eb685e57') in 0.007389 seconds 
+  Import took 0.010243 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
