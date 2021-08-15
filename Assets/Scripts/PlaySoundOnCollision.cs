@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlaySoundOnCollision : MonoBehaviour
 {
     public float velocityThreshold = 1;
+    public float angularVelocityThreshold = .5f;
 
     private Rigidbody rb;
     private AudioSource sfx;
@@ -21,14 +22,16 @@ public class PlaySoundOnCollision : MonoBehaviour
             return;
 
         float mag = rb.velocity.magnitude;
-        if (mag > velocityThreshold)
+        float aMag = rb.angularVelocity.magnitude;
+        if (mag > velocityThreshold || aMag > angularVelocityThreshold)
         {
             sfx.volume = 1;
             sfx.Play();
         }
         else
         {
-            sfx.volume = mag / velocityThreshold;
+            sfx.volume = Mathf.Max(mag / velocityThreshold,
+                aMag / angularVelocityThreshold);
             sfx.Play();
         }
     }
