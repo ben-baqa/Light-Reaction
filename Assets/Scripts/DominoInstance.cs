@@ -6,14 +6,14 @@ public class DominoInstance : MonoBehaviour
 {
     public static bool allDown = false;
 
-    public float yDownThreshhold = 1f;
+    public float rotationThreshold = 25;
     public bool down = false;
 
-    private float yStart;
+    private float rotStart;
 
     private void Start()
     {
-        yStart = transform.position.y;
+        rotStart = transform.rotation.eulerAngles.z;
     }
 
     void Update()
@@ -25,7 +25,7 @@ public class DominoInstance : MonoBehaviour
     {
         if (down)
             return;
-        down = transform.position.y - yStart > yDownThreshhold;
+        down = Mathf.Abs(transform.rotation.eulerAngles.z - rotStart) > rotationThreshold;
         allDown &= down;
     }
 }

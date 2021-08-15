@@ -58,3 +58,4 @@ Assets/_Project/Data/
 Packages/packages-lock.json
 Packages/packages-lock.json
 >>>>>>> Stashed changes
+*.log
