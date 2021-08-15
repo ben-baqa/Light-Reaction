@@ -76,7 +76,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   velocityThreshold: 2
-  angularVelocityThreshold: 0.5
+  angularVelocityThreshold: 0.05
 --- !u!82 &4875701694389551384
 AudioSource:
   m_ObjectHideFlags: 0
@@ -87,7 +87,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 91a33865c9b38e94b87eea219b078838, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 34f68c6a12437f04986a4b753ae5c655, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1

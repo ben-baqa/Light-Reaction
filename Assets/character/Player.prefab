@@ -263,7 +263,7 @@ MonoBehaviour:
   moveForce: 50
   jumpForce: 30
   friction: 0.2
-  turnRatio: 0.1
+  turnRatio: 0.175
   jumpSound: {fileID: 3420871575273713123}
   jumpSound2: {fileID: 4373127722275177585}
   landSound: {fileID: 1174958303189346000}
@@ -536,7 +536,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 91a33865c9b38e94b87eea219b078838, type: 3}
+  m_audioClip: {fileID: 8300000, guid: db40dd90f8cffec428f770f8791202ff, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -632,7 +632,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: f8317ab681514ea4aa9df003010c97da, type: 3}
+  m_audioClip: {fileID: 8300000, guid: c1c846b9eec8dba43aecce951496f021, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
