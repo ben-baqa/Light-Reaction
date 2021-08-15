@@ -5,9 +5,9 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     public float moveForce = 1, jumpForce = 10, friction = .2f;
-    public float turnRatio = 0.1f;
+    public float turnRatio = 0.1f, rotationOffset;
 
-    public AudioSource jumpSound, jumpSound2, landSound, runSound;
+    public AudioSource jumpSound, jumpSound2, landSound;
 
     private Rigidbody rb;
     private ControlKey input;
@@ -77,7 +77,9 @@ public class PlayerController : MonoBehaviour
         {
             anim.SetBool("run", true);
             float r = rb.rotation.eulerAngles.y;
-            r = Mathf.Lerp(r, cam.transform.rotation.eulerAngles.y, turnRatio);
+            r = Mathf.Lerp(r,
+                cam.transform.rotation.eulerAngles.y + rotationOffset,
+                turnRatio);
 
             rb.rotation = Quaternion.Euler(Vector3.up * r);
             rb.AddForce(dir.normalized * moveForce);
