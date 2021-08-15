@@ -702,6 +702,75 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3fcd571efd9b46c4fbaa52f5580cc4c2, type: 3}
+--- !u!1001 &4787624896798659015
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4787624897319982832, guid: 809cc9686cae4ac48b1beb7456e0e6db,
+        type: 3}
+      propertyPath: m_Name
+      value: GPU.001
+      objectReference: {fileID: 0}
+    - target: {fileID: 4787624897319982844, guid: 809cc9686cae4ac48b1beb7456e0e6db,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 4787624897319982844, guid: 809cc9686cae4ac48b1beb7456e0e6db,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4787624897319982844, guid: 809cc9686cae4ac48b1beb7456e0e6db,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4787624897319982844, guid: 809cc9686cae4ac48b1beb7456e0e6db,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4787624897319982844, guid: 809cc9686cae4ac48b1beb7456e0e6db,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4787624897319982844, guid: 809cc9686cae4ac48b1beb7456e0e6db,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4787624897319982844, guid: 809cc9686cae4ac48b1beb7456e0e6db,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4787624897319982844, guid: 809cc9686cae4ac48b1beb7456e0e6db,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4787624897319982844, guid: 809cc9686cae4ac48b1beb7456e0e6db,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4787624897319982844, guid: 809cc9686cae4ac48b1beb7456e0e6db,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4787624897319982844, guid: 809cc9686cae4ac48b1beb7456e0e6db,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 809cc9686cae4ac48b1beb7456e0e6db, type: 3}
 --- !u!1001 &5098659846101111932
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -952,6 +1021,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Pause menu
+      objectReference: {fileID: 0}
+    - target: {fileID: 5235481744195922697, guid: bdd039557ad12a74593f383217e70e9f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5235481744195922700, guid: bdd039557ad12a74593f383217e70e9f,
         type: 3}
