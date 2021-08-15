@@ -5,6 +5,8 @@ using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
+    public static int dominosDown;
+
     public Text dominoCount;
     public GameObject winEffect;
 
@@ -37,6 +39,7 @@ public class GameManager : MonoBehaviour
                     n--;
 
             dominoCount.text = "Dominos Remaining: " + n;
+            dominosDown = dominos.Length - n;
         }
     }
 }
