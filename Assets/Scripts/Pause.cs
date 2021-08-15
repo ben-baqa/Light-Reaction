@@ -41,7 +41,6 @@ public class Pause : MonoBehaviour
         if (actuated)
         {
             actuated = false;
-            print("pause pressed");
             if (paused)
             {
                 Time.timeScale = 1;
@@ -64,10 +63,12 @@ public class Pause : MonoBehaviour
     public void Reload()
     {
         SceneManager.LoadScene(1);
+        Time.timeScale = 1;
     }
 
     public void ReturnToMainMenu()
     {
         SceneManager.LoadScene(0);
+        Time.timeScale = 1;
     }
 }
