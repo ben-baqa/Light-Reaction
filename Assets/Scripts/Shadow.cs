@@ -20,7 +20,11 @@ public class Shadow : MonoBehaviour
         if(hits.Length > 0)
         {
             shadow.SetActive(true);
-            shadow.transform.position = hits[1].point;
+            Vector3 p = hits[0].point;
+            foreach (RaycastHit h in hits)
+                if (h.point.y > p.y)
+                    p = h.point;
+            shadow.transform.position = p;
         }
         else
         {
