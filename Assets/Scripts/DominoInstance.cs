@@ -27,7 +27,7 @@ public class DominoInstance : MonoBehaviour
     {
         if (down)
             return;
-        down =  yStart - head.position.y > yThreshold;
+        down =  Mathf.Abs(transform.position.y - head.position.y) < yThreshold;
         allDown &= down;
     }
 }
