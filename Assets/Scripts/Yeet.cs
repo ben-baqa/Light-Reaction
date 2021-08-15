@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class Yeet : MonoBehaviour
 {
-
+    public float force = 10000;
 
     private void OnCollisionEnter(Collision collision)
-	{
-        collision.collider.GetComponent<Rigidbody>().AddForce(10000 * Vector3.up);
-	}
+    {
+        collision.collider.GetComponent<Rigidbody>().AddForce(force * Vector3.up);
+    }
 }
