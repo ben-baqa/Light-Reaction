@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class Pause : MonoBehaviour
 {
@@ -40,7 +41,6 @@ public class Pause : MonoBehaviour
         if (actuated)
         {
             actuated = false;
-            print("pause pressed");
             if (paused)
             {
                 Time.timeScale = 1;
@@ -53,5 +53,22 @@ public class Pause : MonoBehaviour
             }
             paused = !paused;
         }
+    }
+
+    public void QuitGame()
+    {
+        Application.Quit();
+    }
+
+    public void Reload()
+    {
+        SceneManager.LoadScene(1);
+        Time.timeScale = 1;
+    }
+
+    public void ReturnToMainMenu()
+    {
+        SceneManager.LoadScene(0);
+        Time.timeScale = 1;
     }
 }

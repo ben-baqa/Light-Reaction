@@ -36,8 +36,6 @@ public class Fan : MonoBehaviour
     {
         if (Application.isPlaying)
         {
-
-            print("yeet");
             if (!GetComponent<BoxCollider>())
                 col = gameObject.AddComponent<BoxCollider>();
 

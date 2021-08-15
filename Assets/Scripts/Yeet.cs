@@ -8,6 +8,8 @@ public class Yeet : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        collision.collider.GetComponent<Rigidbody>().AddForce(force * Vector3.up);
+        Rigidbody rb = collision.collider.GetComponent<Rigidbody>();
+        if (rb)
+            rb.AddForce(force * Vector3.up);
     }
 }

@@ -6,9 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Main menu.unity
-    guid: 7e9cdf3b9c9c3e5498e8b5e16ef80796
+    path: Assets/Scenes/START MENU.unity
+    guid: 0a92aaa2a46adb741abfe32a61675b89
   - enabled: 1
     path: Assets/Scenes/Level1 Garth.unity
     guid: bc57e776d18b01f4386f2a4f8f073a5c
+  - enabled: 1
+    path: Assets/Scenes/Main menu.unity
+    guid: 7e9cdf3b9c9c3e5498e8b5e16ef80796
   m_configObjects: {}
