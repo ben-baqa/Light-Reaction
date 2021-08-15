@@ -57,6 +57,7 @@ public class PlayerController : MonoBehaviour
 
         if (input["jump"] && grounded)
         {
+            rb.velocity = new Vector3(rb.velocity.x, 0, rb.velocity.z);
             anim.SetTrigger("jump");
             rb.AddForce(jumpForce * Vector3.up, ForceMode.Impulse);
             jumpSound.Play();

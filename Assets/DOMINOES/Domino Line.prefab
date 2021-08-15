@@ -1,0 +1,175 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5098659845657034093
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5098659845657034095}
+  - component: {fileID: 5098659845657034094}
+  - component: {fileID: 5098659845657034088}
+  m_Layer: 0
+  m_Name: Domino Line
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5098659845657034095
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5098659845657034093}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!120 &5098659845657034094
+LineRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5098659845657034093}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 0
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 9ddcb84476a054c4980cfcfceb331fa8, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Positions:
+  - {x: 0, y: 0, z: 0}
+  - {x: 4.582855, y: 0, z: 0.12487936}
+  - {x: 8.935887, y: 0, z: 2.1858683}
+  m_Parameters:
+    serializedVersion: 3
+    widthMultiplier: 1
+    widthCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.1796875
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    colorGradient:
+      serializedVersion: 2
+      key0: {r: 1, g: 1, b: 1, a: 0.53333336}
+      key1: {r: 1, g: 1, b: 1, a: 0.6039216}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 64957
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    numCornerVertices: 0
+    numCapVertices: 0
+    alignment: 0
+    textureMode: 0
+    shadowBias: 0.5
+    generateLightingData: 0
+  m_UseWorldSpace: 0
+  m_Loop: 0
+--- !u!114 &5098659845657034088
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5098659845657034093}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1eb2cd6483a2bc84f884b36f00aa3b02, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  meshPrefabs:
+  - {fileID: 919132149155446097, guid: 0e96b34fa17025f4fb00f0db3fcccc47, type: 3}
+  - {fileID: 919132149155446097, guid: a085c879236c7534ea58047b334dea84, type: 3}
+  - {fileID: 919132149155446097, guid: 47ce5ba4651b44943805c6130f3afe5f, type: 3}
+  - {fileID: 919132149155446097, guid: 852a6d966dd5f6042ac662a76bd31b02, type: 3}
+  - {fileID: 919132149155446097, guid: 38d193c65e5aa984ba96210bc3e954e9, type: 3}
+  - {fileID: 919132149155446097, guid: 07bfb9253a4b35843a99dea2f46c3802, type: 3}
+  - {fileID: 919132149155446097, guid: 0c81edca80917f341a553469df3df76f, type: 3}
+  - {fileID: 919132149155446097, guid: 6998e4e8fa381e14284e6fccf656f116, type: 3}
+  - {fileID: 919132149155446097, guid: 7ac5300988e47f242b015c80a38b5b0f, type: 3}
+  - {fileID: 919132149155446097, guid: ef8d4518598c13f45b834535725998de, type: 3}
+  - {fileID: 919132149155446097, guid: a1cad6de211557e40a909042aabd20ca, type: 3}
+  - {fileID: 919132149155446097, guid: ad0907fc8b7034e42ab3aef576efb9fb, type: 3}
+  - {fileID: 919132149155446097, guid: 6875f5a02a26fe148b3decdda0c7ea06, type: 3}
+  - {fileID: 919132149155446097, guid: 9e2288285508d8b4899c4470c770b76d, type: 3}
+  - {fileID: 919132149155446097, guid: 766f060092c1d954fb4d007f770c05c8, type: 3}
+  - {fileID: 919132149155446097, guid: 6cff67c506f0d3f489bb4fb5f86ea60d, type: 3}
+  - {fileID: 919132149155446097, guid: 2845db27f3410804e9c5bd23d3a8ab67, type: 3}
+  - {fileID: 919132149155446097, guid: 91eb15a2f95b1be4aa20aa7293d73504, type: 3}
+  - {fileID: 919132149155446097, guid: 28225c62dce396a4985936e919a3da06, type: 3}
+  - {fileID: 919132149155446097, guid: 6cd43021c2f5d3a4d8446aadfd59e68d, type: 3}
+  - {fileID: 919132149155446097, guid: 3b3e945ae9bf9b24b83bc8fc85c2df86, type: 3}
+  - {fileID: 919132149155446097, guid: 164929a4597c47c4388c5aca1ab80ea8, type: 3}
+  - {fileID: 919132149155446097, guid: ad7ebc8be00d2f14c8c00f94ea3aeece, type: 3}
+  - {fileID: 919132149155446097, guid: 02edfd9aac2dbf84fab5fb768d5e4015, type: 3}
+  - {fileID: 919132149155446097, guid: 0ee8ae9d7566501419daba24f09f52a1, type: 3}
+  - {fileID: 919132149155446097, guid: 66ece131bc5d80645afee51e5e51811c, type: 3}
+  - {fileID: 919132149155446097, guid: 5deeab5903cd24e4db4297ae8f90511c, type: 3}
+  - {fileID: 919132149155446097, guid: 3e1d5aa4873690d4d8b2f17bd9f27fc6, type: 3}
+  dominoPrefab: {fileID: 4875701694389551364, guid: 1dbb7a49da6119243b7607a22ee896bb,
+    type: 3}
